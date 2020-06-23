@@ -6,8 +6,10 @@ function App() {
   return (
     <div className="App">
         <Navbar/>
-        <div className="mt-5">
-            <Todos/>
+        <div className="container">
+            <div className="mt-5">
+                <Todos/>
+            </div>
         </div>
     </div>
   );
